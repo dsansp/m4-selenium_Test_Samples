@@ -82,7 +82,7 @@ public class TravelTest {
         List<WebElement> hotelsafter = driver.findElements(By.className("stars_5"));
         assertEquals(1, hotelsafter.size());
 
-   
+
 
         // testear pantalla Details: pulsar en el primer hotel en el botón Details y comprobar la pantalla que aparece, que sea de Dubai
 
